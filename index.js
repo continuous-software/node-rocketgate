@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  GatewayService: require('./GatewayService.js'),
-  GatewayRequest: require('./GatewayRequest.js'),
-  GatewayResponse: require('./GatewayResponse.js')
+  GatewayService: require('./lib/GatewayService.js'),
+  GatewayRequest: require('./lib/GatewayRequest.js'),
+  GatewayResponse: require('./lib/GatewayResponse.js')
 };

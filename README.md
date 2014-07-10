@@ -6,7 +6,7 @@ It has been ported from the Ruby version, with all its transactions unit tests.
 
 ## Install ##
 
-    $ npm install
+    $ npm install -save rocketgate
 
 ## Usage ##
 

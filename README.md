@@ -10,7 +10,7 @@ It has been ported from the Ruby version, with all its transactions unit tests.
 
 ## Usage ##
 
-See unit tests in the `./tests/` folder for working examples.
+See unit tests in the `./test/` folder for working examples.
 
 ## Test ##
 

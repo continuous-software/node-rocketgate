@@ -1,5 +1,5 @@
 var TestAccount = require('../settings/testAccount.js');
-var RocketGateway = require('../index.js');
+var RocketGate = require('../index.js');
 var GatewayError = require('42-cent-base').GatewayError;
 var model = require('42-cent-model');
 var CreditCard = model.CreditCard;
@@ -12,7 +12,7 @@ describe('rocket gate service', function () {
   var service;
 
   beforeEach(function () {
-    service = RocketGateway(TestAccount);
+    service = RocketGate.gateway(TestAccount);
     service.testMode = true;
   });
 

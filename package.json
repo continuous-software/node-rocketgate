@@ -24,6 +24,7 @@
     "42-cent-util": "^1.0.0",
     "bluebird": "^2.3.2",
     "json2xml": "^0.1.1",
+    "lodash": "^2.4.1",
     "request": "^2.48.0",
     "rocketgate-report": "^0.1.0",
     "xml2json": "^0.5.1"

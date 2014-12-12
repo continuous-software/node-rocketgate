@@ -4,7 +4,7 @@
 
 ## Installation ##
 
-    npm install -s rocketgate
+    $ npm install -s rocketgate
 
 ## Usage
 

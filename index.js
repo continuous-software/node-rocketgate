@@ -1,7 +1,5 @@
-'use strict';
+var RocketGateway = require('./lib/RocketGateGateway.js');
 
-module.exports = {
-  GatewayService: require('./lib/GatewayService.js'),
-  GatewayRequest: require('./lib/GatewayRequest.js'),
-  GatewayResponse: require('./lib/GatewayResponse.js')
+module.exports = function (conf) {
+    return new RocketGateway(conf);
 };

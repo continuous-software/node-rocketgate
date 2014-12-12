@@ -1,17 +1,18 @@
-var conf = require('../config.js');
+var TestAccount = require('../settings/testAccount.js');
 var RocketGateway = require('../index.js');
-var assert = require('assert');
 var GatewayError = require('42-cent-base').GatewayError;
 var model = require('42-cent-model');
 var CreditCard = model.CreditCard;
 var Prospect = model.Prospect;
+var assert = require('assert');
+
 
 describe('rocket gate service', function () {
 
   var service;
 
   beforeEach(function () {
-    service = RocketGateway(conf);
+    service = RocketGateway(TestAccount);
     service.testMode = true;
   });
 

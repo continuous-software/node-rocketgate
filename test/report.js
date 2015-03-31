@@ -2,7 +2,7 @@ var Report = require('../index.js').report.factory;
 var assert = require('assert');
 var errors = require('../lib/errors');
 
-describe('rocketgate report api', function () {
+xdescribe('rocketgate report api', function () {
 
     var service;
 

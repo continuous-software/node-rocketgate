@@ -1,10 +1,8 @@
-[![Build Status](https://travis-ci.org/continuous-software/node-rocketgate.svg?branch=master)](https://travis-ci.org/continuous-software/node-rocketgate)
+[![Build Status](https://travis-ci.org/continuous-software/node-rocketgate.svg?branch=master)](https://travis-ci.org/continuous-software/node-rocketgate) [![Greenkeeper badge](https://badges.greenkeeper.io/continuous-software/node-rocketgate.svg)](https://greenkeeper.io/)
 
 ![node-rocketgate](http://rocketgate.com/images/logo_rocketgate.png)
 
 ## Installation ##
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/continuous-software/node-rocketgate.svg)](https://greenkeeper.io/)
 
     $ npm install -s rocketgate
 

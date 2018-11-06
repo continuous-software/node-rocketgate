@@ -22,7 +22,7 @@
     "42-cent-base": "^1.0.0",
     "42-cent-model": "^2.0.2",
     "42-cent-util": "^1.0.0",
-    "bluebird": "^3.5.1",
+    "bluebird": "3.5.2",
     "json2xml": "^0.1.1",
     "lodash": "^4.17.5",
     "request": "2.86.0",

@@ -29,6 +29,6 @@
     "xml2js": "^0.4.6"
   },
   "devDependencies": {
-    "mocha": "^5.1.1"
+    "mocha": "^6.1.1"
   }
 }
